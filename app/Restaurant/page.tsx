@@ -10,7 +10,7 @@ const ephesis = Ephesis({
 
 const Restaurant: React.FC = () => {
 	return (
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen w-full overflow-hidden flex flex-col">
 		<div className="w-full  flex flex-col lg:flex-row">
 			<Image
                 src="/images/Restaurant/food1.png"
