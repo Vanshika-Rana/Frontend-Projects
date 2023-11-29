@@ -15,9 +15,9 @@ const Restaurant: React.FC = () => {
 				<Image
 					src='/images/Restaurant/food1.png'
 					alt='pizza'
-					width={200}
+					width={500}
 					height={200}
-					className='w-full'
+					
 				/>
 				<div className='bg-white w-full flex flex-col justify-center items-center py-32 px-20'>
 					<p
@@ -42,9 +42,9 @@ const Restaurant: React.FC = () => {
 				<Image
 					src='/images/Restaurant/food2.jpg'
 					alt='Blueberry'
-					width={200}
+					width={500}
 					height={200}
-					className='w-full'
+					
 				/>
 			</div>
 			<div className='w-full bg-black h-20 flex justify-center items-center'>
