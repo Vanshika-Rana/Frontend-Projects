@@ -17,7 +17,7 @@ const Restaurant: React.FC = () => {
 					alt='pizza'
 					width={500}
 					height={200}
-					
+					className="w-full"
 				/>
 				<div className='bg-white w-full flex flex-col justify-center items-center py-32 px-20'>
 					<p
