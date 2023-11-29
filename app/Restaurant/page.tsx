@@ -11,13 +11,13 @@ const ephesis = Ephesis({
 const Restaurant: React.FC = () => {
 	return (
 		<div className='min-h-screen w-full overflow-hidden flex flex-col'>
-			<div className='w-full h-[50%] flex flex-col lg:flex-row'>
+			<div className='grid grid-cols-1 lg:grid-cols-3'>
 				<Image
 					src='/images/Restaurant/food1.png'
 					alt='pizza'
 					width={500}
 					height={200}
-					className="w-full"
+					className="w-full h-full"
 				/>
 				<div className='bg-white w-full flex flex-col justify-center items-center py-32 px-20'>
 					<p
@@ -44,7 +44,7 @@ const Restaurant: React.FC = () => {
 					alt='Blueberry'
 					width={500}
 					height={200}
-					className="w-full"
+					className="w-full h-full"
 				/>
 			</div>
 			<div className='w-full bg-black h-20 flex justify-center items-center'>
