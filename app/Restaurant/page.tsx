@@ -44,7 +44,7 @@ const Restaurant: React.FC = () => {
 					alt='Blueberry'
 					width={500}
 					height={200}
-					
+					className="w-full"
 				/>
 			</div>
 			<div className='w-full bg-black h-20 flex justify-center items-center'>
