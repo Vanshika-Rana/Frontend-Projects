@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Ephesis } from "next/font/google";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import Link from "next/link";
 
 const ephesis = Ephesis({
 	weight: "400",
@@ -48,10 +49,12 @@ const Restaurant: React.FC = () => {
 				/>
 			</div>
 			<div className='w-full bg-black h-20 flex justify-center items-center'>
-				<p
-					className={`text-white text-center text-xl font-medium tracking-wider`}>
-					Made With ❤️ Vanshika Rana
+				<Link href="https://nicepage.com/website-design/preview/restaurant-healthy-menu-64424?device=desktop" target="_blank">
+                <p
+					className={`text-white text-center underline text-xl font-medium tracking-wider`}>
+					Design Credits
 				</p>
+                </Link>
 			</div>
 		</div>
 	);
