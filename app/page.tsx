@@ -15,21 +15,11 @@ export default function Home() {
 			</p>
 			<div className='grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 gap-12 px-24 py-8'>
 				<Card
-					title='rock'
-					link='www.google.com'
-					cardImg='/images/img.jpg'
+					title='Restaurant'
+					link='/Restaurant'
+					cardImg='/images/Restaurant/landing.png'
 				/>
-				<Card
-					title='rock'
-					link='www.google.com'
-					cardImg='/images/img.jpg'
-				/>
-
-				<Card
-					title='rock'
-					link='www.google.com'
-					cardImg='/images/img.jpg'
-				/>
+				
 			</div>
 		</main>
 	);
